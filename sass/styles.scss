@@ -5,10 +5,25 @@
 @import 'foundation/components/dropdown';
 @import 'foundation/components/top-bar';
 
+$primary-color: #0101DF;
 
 
 $bright : #FF0000;
 
 body {
-  background: $bright;
+  background: $white;
+}
+
+#box1{
+  background-color: blue;
+}
+#box2{
+  background-color: $oil;
+  padding:20px;
+}
+#box3{
+  background-color: yellow;
+}
+#button{
+  width: 500px;
 }

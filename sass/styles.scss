@@ -1,0 +1,14 @@
+@import "partials/_settings";
+
+@import 'foundation/components/grid';
+@import 'foundation/components/buttons';
+@import 'foundation/components/dropdown';
+@import 'foundation/components/top-bar';
+
+
+
+$bright : #FF0000;
+
+body {
+  background: $bright;
+}
